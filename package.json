@@ -1,10 +1,13 @@
 {
-  "name": "server",
+  "name": "anyhelper-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node" : "14.17.1"
+  },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
